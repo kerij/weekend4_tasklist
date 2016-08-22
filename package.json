@@ -1,0 +1,25 @@
+{
+  "name": "weekend4_tasklist",
+  "version": "1.0.0",
+  "description": "tasklist",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kerij/weekend4_tasklist.git"
+  },
+  "author": "keriajackson@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kerij/weekend4_tasklist/issues"
+  },
+  "homepage": "https://github.com/kerij/weekend4_tasklist#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "pg": "^6.1.0"
+  }
+}

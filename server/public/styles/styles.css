@@ -1,0 +1,62 @@
+body {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+.done {
+  background-color: lightgreen;
+  color: grey;
+}
+
+.task-entry {
+  display: inline;
+}
+
+.complete-button {
+  display: inline;
+  float: right;
+  background-color: lightgray;
+  border-radius: 5px;
+  width: 90px;
+}
+
+.delete {
+  display: inline;
+  float: right;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin-right: 3px;
+}
+
+#task-submit {
+  display: inline;
+  float: auto;
+  background-color: lightgray;
+  border-radius: 5px;
+}
+
+.task-line {
+  border: 1px solid black;
+  padding: 10px 10px 10px 10px;
+  width: 90%;
+  margin: auto;
+}
+
+.task {
+  display: inline-block;
+  margin: auto;
+}
+
+#task-container {
+  margin: auto;
+  width: 80%;
+  padding: 10px;
+}
+
+#form-container {
+  margin: auto;
+  width: 80%;
+}
